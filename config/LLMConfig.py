@@ -1,0 +1,8 @@
+import os
+
+API_KEY = "YOUR_OPENAI_KEY"
+BASE_URL = "YOUR_BASE_LLM_URL"
+
+os.environ["LANGFUSE_PUBLIC_KEY"] = "LANGFUSE_PUBLIC_KEY"
+os.environ["LANGFUSE_SECRET_KEY"] = "LANGFUSE_SECRET_KEY"
+os.environ["LANGFUSE_HOST"] = "http://localhost:3000"
